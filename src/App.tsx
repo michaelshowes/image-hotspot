@@ -19,7 +19,6 @@ export default function App() {
   const createHotspot = () => {
     const id = uuid();
     setHotspots((prev) => [...prev, { id, description: '', isEditing: true }]);
-    console.log(hotspots);
   };
 
   return (
