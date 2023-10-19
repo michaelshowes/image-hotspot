@@ -1,7 +1,7 @@
 export type HotspotProps = {
   id: string;
   description: string;
-  isEditing: false;
+  isEditing: boolean;
 };
 
 export default function Hotspot({

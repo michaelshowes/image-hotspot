@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from 'react';
-import { HotspotProps } from '../components/Hotspot';
+import { HotspotProps } from '../components/Hotspot/Hotspot';
 
 type HotspotContext = {
   hotspots: HotspotProps[];
