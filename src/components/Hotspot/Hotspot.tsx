@@ -1,5 +1,7 @@
 export type HotspotProps = {
   id: string;
+  xPos?: number;
+  yPos?: number;
   description: string;
   isEditing: boolean;
 };

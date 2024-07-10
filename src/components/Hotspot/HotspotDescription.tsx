@@ -22,7 +22,7 @@ export default function HotspotDescription({
       </div>
       <p
         className={
-          'w-max min-w-[300px] border-l-2 border-gray-700 bg-gray-200 p-4 text-sm'
+          'w-full max-w-[300px] border-l-2 border-gray-700 bg-gray-200 p-4 text-sm'
         }
         style={{
           borderLeftColor: data.isEditing ? 'red' : '#374151'
